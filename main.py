@@ -59,6 +59,7 @@ app.layout = html.Div([
     )
 ])
 
+
 @app.callback(
     dash.dependencies.Output('indicator-graphic', 'figure'),
     [dash.dependencies.Input('xaxis-column', 'value'),
